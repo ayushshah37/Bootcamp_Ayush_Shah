@@ -31,22 +31,26 @@ We will study this through market microstructure features, statistical analysis,
 ## Project Roadmap
 
 ```text
-Raw Order-Level Data
+Define Research Question
         ↓
-Order Book Reconstruction
+Acquire & Understand Data
         ↓
-Book State Generation
+Reconstruct Limit Order Book
         ↓
-Microstructure Features
+Engineer Microstructure Features
         ↓
-Exploratory Analysis
+Exploratory & Statistical Analysis
         ↓
-Order Flow / Liquidity Analysis
+Build Prediction Models
         ↓
-Short-Term Price Prediction
+Out-of-Sample Validation
         ↓
-Backtesting
+Trading Strategy
         ↓
-Transaction-Cost Analysis
+Transaction Costs & Slippage
         ↓
-Research Conclusions
+Performance & Risk Analysis
+        ↓
+Robustness Testing
+        ↓
+Final Research Conclusions
