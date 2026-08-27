@@ -1,2 +1,52 @@
-# Limit-Order-Book-Market-Microstructure
-Built a Python-based Limit Order Book and Market Microstructure framework to reconstruct order books and analyze bid-ask spreads, market depth, order flow, liquidity, and order book imbalance. Developed short-term price prediction models and evaluated signals using out-of-sample testing and transaction-cost-aware backtesting.
+# Limit Order Book & Market Microstructure
+
+A quantitative research framework for analyzing **limit order books (LOBs)** and understanding how order flow, liquidity, and market microstructure affect short-term price movements.
+
+The goal of this project is not simply to visualize an order book, but to build a complete research pipeline that goes from raw order-level data to **microstructure features, statistical analysis, and short-horizon price prediction**.
+
+---
+
+## Research Objective
+
+Financial markets are driven by the continuous interaction between buyers and sellers.
+
+At any point in time, the limit order book contains outstanding:
+
+- Bid orders
+- Ask orders
+- Order sizes
+- Prices
+- Order arrivals
+- Order cancellations
+- Executions
+
+This project investigates the following question:
+
+> **Can the state of the limit order book and recent order flow provide useful information about short-term price movements?**
+
+We will study this through market microstructure features, statistical analysis, and predictive modeling.
+
+---
+
+## Project Roadmap
+
+```text
+Raw Order-Level Data
+        ↓
+Order Book Reconstruction
+        ↓
+Book State Generation
+        ↓
+Microstructure Features
+        ↓
+Exploratory Analysis
+        ↓
+Order Flow / Liquidity Analysis
+        ↓
+Short-Term Price Prediction
+        ↓
+Backtesting
+        ↓
+Transaction-Cost Analysis
+        ↓
+Research Conclusions
